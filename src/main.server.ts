@@ -1,7 +1,7 @@
 import 'zone.js/dist/zone-node';
 import { renderModuleFactory } from '@angular/platform-server';
 import { enableProdMode } from '@angular/core';
-import { AppServerModuleNgFactory } from './aot/src/app/app.server.module.ngfactory';
+import { AppServerModuleNgFactory } from './aot/src/app/app.server-module.ngfactory';
 import * as express from 'express';
 import * as fs from 'fs';
 let templateCache = {};

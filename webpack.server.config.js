@@ -263,7 +263,7 @@ module.exports = {
       }
     }),
     new AotPlugin({
-      "entryModule": __dirname + "/src/app/app.server.module.ts#AppServerModule",
+      "entryModule": __dirname + "/src/app/app.server-module.ts#AppServerModule",
       "hostReplacementPaths": {
         "environments\\environment.ts": "environments\\environment.ts"
       },
